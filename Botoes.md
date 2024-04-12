@@ -68,5 +68,5 @@ button.addEventListener('click', () => {
   setTimeout(() => {
     button.style.backgroundColor = '#007bff'; // Retorna à cor original
   }, 200);
-
+});
 ```
