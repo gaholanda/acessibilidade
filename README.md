@@ -44,6 +44,6 @@ Estrutura semântica: Utilizar HTML semântico para organizar o conteúdo e faci
 
 ## 5. Recursos Adicionais
 
-- (WCAG 2.1)[https://www.w3.org/TR/WCAG21/]
-- (Guia de Acessibilidade Digital do Governo Brasileiro)[https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital]
-- (W3C Accessibility Standards)[https://www.w3.org/WAI/standards-guidelines/]
+- [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
+- [Guia de Acessibilidade Digital do Governo Brasileiro](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital)
+- [W3C Accessibility Standards](https://www.w3.org/WAI/standards-guidelines/)
