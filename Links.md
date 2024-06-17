@@ -8,17 +8,17 @@ Use textos de link que descrevam claramente o destino ou a ação que ocorrerá 
 
 **Bom exemplo:**
 
-html```
+html````
 <a href="documento.pdf">Leia o relatório anual</a>
-```
+````
 
 O texto do link é claro e descreve exatamente o que o usuário encontrará ao clicar.
 
 **Mau exemplo:**
 
-html```
+html````
 <a href="documento.pdf">Clique aqui</a>
-```
+````
 
 O texto do link é genérico e não informa o destino ou a finalidade do link.
 
@@ -30,17 +30,17 @@ O atributo title pode fornecer informações adicionais, mas não deve ser usado
 
 **Bom exemplo:**
 
-html```
+html````
 <a href="documento.pdf" title="Baixar o relatório anual em PDF">Leia o relatório anual</a>
-```
+```` 
 
 O atributo `title` fornece informações adicionais úteis.
 
 **Mau exemplo:**
 
-html```
+html````
 <a href="documento.pdf" title="Clique aqui para baixar">Clique aqui</a>
-```
+````
 
 O `title` é redundante e não compensa a falta de um texto de link significativo.
 
@@ -50,17 +50,17 @@ Use atributos ARIA para fornecer informações adicionais sobre o link, se neces
 
 **Bom exemplo:**
 
-html```
+html````
 <a href="documento.pdf" aria-label="Baixar o relatório anual em PDF">Leia o relatório anual</a>
-```
+````
 
 O `aria-label` fornece uma descrição clara para usuários de tecnologias assistivas.
 
 **Mau exemplo:**
 
-html```
+html````
 <a href="documento.pdf" aria-label="Clique aqui para baixar">Clique aqui</a>
-```
+````
 
 Assim como o `title`, o `aria-label` não deve ser usado para compensar um texto de link genérico.
 
@@ -72,23 +72,23 @@ Assegure-se de que os links tenham um estado de foco visível para que os usuár
 
 **Bom exemplo:**
 
-html```
+html````
 <style>
 a:focus { 
     outline: 2px solid #000;
 }
 </style>
-```
+````
 
 **Mau exemplo:**
 
-html```
+html````
 <style>
 a:focus {
     outline: none;
 }
 </style>
-```
+````
 
 Remover o foco torna difícil para usuários de teclado verem qual link está ativo.
 
@@ -105,23 +105,23 @@ Evite o uso excessivo de links em um só bloco de texto, o que pode ser confuso 
 
 **Bom exemplo:**
 
-html```
+html````
 <ul>
     <li><a href="page1.html">Página 1</a></li>
     <li><a href="page2.html">Página 2</a></li>
     <li><a href="page3.html">Página 3</a></li>
 </ul>
-```
+````
 
 Links estruturados em uma lista semântica, facilitando a navegação.
 
 **Mau exemplo:**
 
-html```
+html````
 <a href="page1.html">Página 1</a>
 <a href="page2.html">Página 2</a>
 <a href="page3.html">Página 3</a>
-```
+````
 
 Links soltos sem estrutura semântica, o que pode ser confuso para usuários de tecnologias assistivas.
 
@@ -132,17 +132,17 @@ Informe aos usuários se um link abrirá uma nova janela ou aba. Isso pode ser f
 
 **Bom exemplo:**
 
-html```
+html````
 <a href="http://exemplo.com" target="_blank" aria-label="Visite nosso parceiro, abre em nova aba">Visite nosso parceiro</a>
-```
+````
 
 Informa ao usuário que o link abre em uma nova aba, tanto visualmente quanto para tecnologias assistivas.
 
 **Mau exemplo:**
 
-html```
+html````
 <a href="http://exemplo.com" target="_blank">Visite nosso parceiro</a>
-```
+````
 
 Não informa ao usuário que o link abrirá em uma nova aba, o que pode ser confuso.
 
@@ -158,7 +158,7 @@ Ofereça feedback visual ao clicar em um link, como uma mudança de cor ou subli
 
 **Bom exemplo:**
 
-html```
+html````
 <style>
 a {
     color: #1a0dab;
@@ -172,13 +172,13 @@ a:hover, a:focus {
 </style>
 
 <a href="page.html">Leia mais sobre acessibilidade</a>
-```
+````
 
 Consistência no estilo dos links e feedback visual ao passar o mouse ou ao focar no link.
 
 **Mau exemplo:**
 
-html```
+html````
 <style>
 a {
     color: #000;
@@ -191,7 +191,7 @@ a:hover {
 </style>
 
 <a href="page.html">Leia mais sobre acessibilidade</a>
-```
+````
 
 Falta de feedback visual perceptível ao passar o mouse ou ao focar no link.
 
